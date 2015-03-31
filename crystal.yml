@@ -1,0 +1,26 @@
+name: pip
+version: 0.1.0
+description: requirements.txt generator for pip
+
+author:
+  name: Chris Tate
+  email: chris@studiotate.com
+  url: http://studiotate.com
+copyright: 2015 Studio Tate
+
+repository:
+  type: git
+  url: https://github.com/studiotate/crystal-pip.git
+
+gen:
+  file:
+    requirements:
+      dest: requirements.txt
+  spec:
+    requirements:
+      key: requirement
+      type: array
+
+generators:
+  project:
+    version: latest
