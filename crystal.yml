@@ -1,6 +1,6 @@
 name: pip
 version: 0.1.0
-description: requirements.txt generator for pip
+description: [pip](http://pip.pypa.io) requirements.txt generator for [Crystal](http://crystal.sh)
 
 author:
   name: Chris Tate
@@ -17,9 +17,10 @@ gen:
     requirements:
       dest: requirements.txt
   spec:
-    requirements:
-      key: requirement
-      type: array
+    dependencies:
+      key: dependency
+      type: object
+      value: version
 
 generators:
   project:
