@@ -1,3 +1,5 @@
 # pip v0.1.0
 
-requirements.txt generator for pip
+
+[pip](http://pip.pypa.io) requirements.txt generator for [Crystal](http://crystal.sh)
+
