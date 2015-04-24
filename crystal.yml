@@ -1,5 +1,5 @@
 name: pip
-version: 0.1.0
+version: 0.2.0
 description: '[pip](http://pip.pypa.io) requirements.txt generator for [Crystal](http://crystal.sh)'
 
 author:
