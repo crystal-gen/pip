@@ -1,3 +1,4 @@
+```yaml
 name: pip-test
 version: 0.1.0
 description: pip test
@@ -19,3 +20,4 @@ generators:
 scripts:
   run:
     - pip install -r lib/requirements.txt
+```
